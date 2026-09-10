@@ -97,6 +97,7 @@ public class MemberController {
 	@GetMapping("/")
 	public String main() {
 		// 이동할 페이지의 경로나 확장자는 뷰리졸버가 붙여주기 때문에 물리적인 뷰 네임만 리턴
+		//  아 졸라 뭘 어째야함? 미쳐버리겠네
 		return "Main";
 	}
 	
